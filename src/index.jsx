@@ -1,14 +1,12 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
+import { StrictMode } from "react";
 import { App } from "./components/App";
 
 createRoot(document.getElementById("root")).render(
-  <div>
-    <h1>
-      <span>emojipedia</span>
-    </h1>
+  <StrictMode>
     <App />
-  </div>
+  </StrictMode>
 );
 
 // If you're running this locally in VS Code use the commands:
