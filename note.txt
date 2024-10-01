@@ -1,0 +1,9 @@
+map funtion: allow us to loop through the array and create a new array by doing something with each item in array, so map function itself actually returns an output which is a new array, unlike foreach funtion where we have to create an empty array, and then every time we do something with each item inside the array we push to the new array
+
+filter function: Create a new array by keeping only the items that return true 
+
+reduce function: Accumulate a value by doing something to each item in an array
+
+find function: find the first item that matches from an array 
+
+findIndex function: find the index of the first item that matches 
